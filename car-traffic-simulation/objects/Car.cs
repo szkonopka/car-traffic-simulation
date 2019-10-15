@@ -24,9 +24,6 @@ namespace car_traffic_simulation.objects
 
             image = new PictureBox();
 
-            Color = Color.FromArgb(255, 0, 0);
-
-            image.BackColor = Color;
             image.Size = new Size(Width, Height);
             image.Location = new Point(X, Y);
         }
